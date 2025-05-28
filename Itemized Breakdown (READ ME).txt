@@ -1,5 +1,5 @@
 1. Our client is a friend of my partners. It will be an interactable recipe website
-2.I have included 2 headers
+2. I have included 2 headers
 3. The page would include at least 10 pages after creating pages for all of the links
 4. There are navigation links at the top of the page
 5. Flex grids on the images allow for distinct layouts
@@ -15,5 +15,3 @@
 15. There is clear navigation at the top using a navbar
 16. There is a header and footer section
 17. Flexboxes were used for the images in the page
-18. We have not coverred databases yet
-19. We have not coverred databases yet
