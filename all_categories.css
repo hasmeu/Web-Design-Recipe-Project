@@ -1,0 +1,101 @@
+#container {
+    width: 100vw;
+    height: 100vw;
+}
+#categories_title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+    height: 300px;
+    
+    background-image: url("Images/pexels-cottonbro-studio-5857294.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    background-color: gray;
+    overflow: hidden;
+    text-align: center; 
+    height: 75px;
+    line-height: 47px;
+}
+
+nav a {
+    display: inline-block; 
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#content {
+    background-color: bisque;
+    min-height: 400px;
+    text-align: center;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 185px;
+    left: 0;
+    width: 100%;
+    filter: brightness(200%);
+    
+    color: darkblue;
+    padding: 10px 0;
+    text-align: top;
+    font-size: 25px;
+}
+
+#content div {
+    margin: 10px;
+    padding-top: 40px;
+}
+
+#content img {
+    box-shadow: 6px 6px 6px gray;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: lightgrey;
+    text-align: center;
+    height: 200px;
+    padding-top: 2px;
+}
+
+img {
+    margin: 10px;
+
+}
+
+
